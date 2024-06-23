@@ -1,0 +1,1 @@
+ set store elements in sorted order to find min or max simply use set.rbegin() = max and set.begin() = min elements. window length = right -left +1;
