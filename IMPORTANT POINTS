@@ -13,3 +13,5 @@ mp[nums[i]]++; ==> mp of <key,value> where key  = frequency (RHS = ++) and value
  int maxi = *max_element(arr.begin(), arr.end()); to find maximum element in the arr
 
 int mini = *min_element(arr.begin(), arr.end()); to find mniimum element in the arr
+
+hi
