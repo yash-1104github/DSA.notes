@@ -1,6 +1,15 @@
 set store elements in sorted order to find min or max simply use set.rbegin() = max and set.begin() = min elements. window length = right -left +1;
+
 Set.find(s[right])!=Set.end() check where element present in set or not if present return true else return false 
+
 Set.find(s[right])==Set.end()check where element present in set or not if not present return true else return false
+
 Cal asci value of ch ={0,1,2...} and mp it to index i to arr LastSeen  ==> lastSeen[s[i]-'a'] = i;
+
 mp[nums[i]] = i; ==> mp of <key,value> where key = index (RHS ) and value is inside the bracket mp[];
+
 mp[nums[i]]++; ==> mp of <key,value> where key  = frequency (RHS = ++) and value is inside the bracket mp[value] = key;
+
+ int maxi = *max_element(arr.begin(), arr.end()); to find maximum element in the arr
+
+int mini = *min_element(arr.begin(), arr.end()); to find mniimum element in the arr
