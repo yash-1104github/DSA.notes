@@ -19,3 +19,7 @@ int mini = *min_element(arr.begin(), arr.end()); to find mniimum element in the 
  arr.push_back(nums1[i++]); this is used to add element in nums1 array and increase the count of i simultaneously
 
 arr3[ind++] = arr1[i++]; initialize the value of arr1[i] to arr3[ind] and then increment the value of ind and i simultaneously
+
+if the size of an array is very large then initialize the array as pass by reference not  pass by value  as it create the copy of 
+array and by reference it pass as pointer and change the value simultaneoulty to origin array but not in case of pass by value
+as it  only create copy of original array becoz it will lead to memory limit exceed error
