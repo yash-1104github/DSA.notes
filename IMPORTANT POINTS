@@ -10,7 +10,11 @@ mp[nums[i]] = i; ==> mp of <key,value> where key = index (RHS ) and value is ins
 
 mp[nums[i]]++; ==> mp of <key,value> where key  = frequency (RHS = ++) and value is inside the bracket mp[value] = key;
 
- int maxi = *max_element(arr.begin(), arr.end()); to find maximum element in the arr
+ int maxi = *max_element(arr.begin(), arr.end()); to find maximum element in the arr 
+  this is an interator pointing to largest value index max_element(arr.begin(), arr.end()) to get its value we use this "*"
+
+Ans to get the index of largest element max_element(arr.begin(), arr.end()) this is pointer will not return value so we use this statement
+max_element(arr.begin(), arr.end()) - arr.begin(); to return its index value;
 
 int mini = *min_element(arr.begin(), arr.end()); to find mniimum element in the arr
 
