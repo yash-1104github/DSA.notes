@@ -27,3 +27,6 @@ arr3[ind++] = arr1[i++]; initialize the value of arr1[i] to arr3[ind] and then i
 if the size of an array is very large then initialize the array as pass by reference not  pass by value  as it create the copy of 
 array and by reference it pass as pointer and change the value simultaneoulty to origin array but not in case of pass by value
 as it  only create copy of original array becoz it will lead to memory limit exceed error
+
+s= string(v.begin(), v.end()) is a concise and efficient way to create a new string from the contents of the vector.return the modified string.
+ and It avoids the need for manual iteration and concatenation of characters 
