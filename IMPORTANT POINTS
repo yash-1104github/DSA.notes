@@ -30,3 +30,10 @@ as it  only create copy of original array becoz it will lead to memory limit exc
 
 s= string(v.begin(), v.end()) is a concise and efficient way to create a new string from the contents of the vector.return the modified string.
  and It avoids the need for manual iteration and concatenation of characters 
+
+ascii value of A-Z = [65 - 90]   
+acsii value of a-z = [97 - 122]
+ascii valiue of number from 0 - 9 = [48 - 57]
+
+sort(arr.begin() , arr.end() , greater<int>()) sort the arr in the dcreasing order here greater<int>() => it is a comparator operator 
+
