@@ -37,3 +37,16 @@ ascii valiue of number from 0 - 9 = [48 - 57]
 
 sort(arr.begin() , arr.end() , greater<int>()) sort the arr in the dcreasing order here greater<int>() => it is a comparator operator 
 
+Greedy Problem ==> TAKE THE MINIUMN VALUE FIRST AS IT IS GREEDY PROBLEM 
+
+BACKTRACKING  ==> TAKE THE ELEMENT THEN DO THE RECURSION CALL AND THEN REMOVET THAT ELEMENT THEN THEN AGAIN DO THE RECURSION CALL 
+LIKE ===>    PUSH_BACK(NUMS[I]) SOLVE(FUNCTION)  POP_BACK(NUMS[I]) SOLVE(FUNCTION)
+
+
+
+
+
+
+
+
+
