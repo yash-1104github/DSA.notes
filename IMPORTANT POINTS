@@ -42,7 +42,13 @@ Greedy Problem ==> TAKE THE MINIUMN VALUE FIRST AS IT IS GREEDY PROBLEM
 BACKTRACKING  ==> TAKE THE ELEMENT THEN DO THE RECURSION CALL AND THEN REMOVET THAT ELEMENT THEN THEN AGAIN DO THE RECURSION CALL 
 LIKE ===>    PUSH_BACK(NUMS[I]) SOLVE(FUNCTION)  POP_BACK(NUMS[I]) SOLVE(FUNCTION)
 
-
+C++ Lambda Function for Sorting by Increasing Frequency
+sort(nums.begin(), nums.end(), [&](int a, int b) {
+    if (freq[a] == freq[b]) {
+        return a > b; 
+    }
+    return freq[a] < freq[b];
+});
 
 
 
