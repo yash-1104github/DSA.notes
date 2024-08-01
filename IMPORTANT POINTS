@@ -1,4 +1,4 @@
-set store elements in sorted order to find min or max simply use set.rbegin() = max and set.begin() = min elements. window length = right -left +1;
+huset store elements in sorted order to find min or max simply use set.rbegin() = max and set.begin() = min elements. window length = right -left +1;
 
 Set.find(s[right])!=Set.end() check where element present in set or not if present return true else return false 
 
@@ -56,5 +56,5 @@ DIAGONAL SORT THE MATRIX / => [i+j]
 DIAGONAL SORT THE MATRIX \ => [i-j]
 
 
-
+int n 
 
