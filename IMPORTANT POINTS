@@ -56,5 +56,6 @@ DIAGONAL SORT THE MATRIX / => [i+j]
 DIAGONAL SORT THE MATRIX \ => [i-j]
 
 
-int n 
+maximum value of int datatype is 10^9 so to prevent ans from bufferOverflow we uses the modulo ==> 10e9 + 7 and 
+RETURN ANS AS  ANS  = (ANS + NUMS[i]) % MOD ;  WHERE MOD = 10e9 + 7;
 
