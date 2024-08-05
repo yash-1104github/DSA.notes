@@ -55,7 +55,8 @@ SORT THE VALUES IN THE MAP ==>  for(auto &it : mp){sort(it.second.begin(),it.sec
 DIAGONAL SORT THE MATRIX / => [i+j] 
 DIAGONAL SORT THE MATRIX \ => [i-j]
 
-
 maximum value of int datatype is 10^9 so to prevent ans from bufferOverflow we uses the modulo ==> 10e9 + 7 and 
 RETURN ANS AS  ANS  = (ANS + NUMS[i]) % MOD ;  WHERE MOD = 10e9 + 7;
 
+{&&} ==> AND CONDITION 
+{&} ==> AND OPERATOR 
