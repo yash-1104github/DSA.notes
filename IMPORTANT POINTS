@@ -65,3 +65,11 @@ STOI ==> STRING VALUE TO INTEGER VALUE AS STRING  == "255" TO CONVET IT INTO INT
 
 The isdigit() function internally converts the character to its ASCII value.
 If the ASCII value falls within the range of ‘0’ to ‘9’, it returns a non-zero value (indicating that the character is a digit).
+
+vector_name.insert(position, value); insert value in vector
+EXAMPLE =. VECTOR [9,9] => ANS.INSERT(ANS.BEGIN(),1)
+RESULT ==> [1,0,0]  
+VECTOR = [2,3,6] => ANS.INSET(ANS.BEGIN()+1,4)
+RESULT ==> [2,4,3,6]
+VECTOR = [2,3,6] => ANS.INSET(ANS.BEGIN()+2,10)
+RESULT ==> [2,3,10,6]
