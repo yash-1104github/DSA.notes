@@ -62,3 +62,6 @@ RETURN ANS AS  ANS  = (ANS + NUMS[i]) % MOD ;  WHERE MOD = 10e9 + 7;
 {&} ==> AND OPERATOR 
 
 STOI ==> STRING VALUE TO INTEGER VALUE AS STRING  == "255" TO CONVET IT INTO INTEGER USE STOI
+
+The isdigit() function internally converts the character to its ASCII value.
+If the ASCII value falls within the range of ‘0’ to ‘9’, it returns a non-zero value (indicating that the character is a digit).
