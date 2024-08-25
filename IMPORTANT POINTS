@@ -1,3 +1,20 @@
+You can remove the boiler plate code and do ==>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+int a , n , m;
+cin >> a >> n >> m ;
+string a , b ;
+cin >> a >> b ;
+
+function call;
+
+cout << value is << endl;
+return 0 ;
+}
+
+
 huset store elements in sorted order to find min or max simply use set.rbegin() = max and set.begin() = min elements. window length = right -left +1;
 
 Set.find(s[right])!=Set.end() check where element present in set or not if present return true else return false 
@@ -76,6 +93,16 @@ RESULT ==> [2,3,10,6]
 
 INSERT ELEMENT IN VECTOR TEMP USE SIMPLE TEMP.PUSH_BACK(NUMS[I])
 
+//CONVERT INTEGER TO STRING 
+string  a = to_string(n);
+
+
+
+
+
+
+
+
 EXPRESS JS IS NODE.JS FRAMWORK
 REACT.JS IS A LIBRARY 
 NODE.JS IS A JAVASCRIPT RUNTIME ENVIRONMENT
@@ -83,4 +110,4 @@ NODE.JS IS A JAVASCRIPT RUNTIME ENVIRONMENT
 NODE_MODULES ARE CORE NODE.JS PACKAGE INSTALL AT TIME OF DOWNLOAD
 npm init  initilalize the json file and npm i packageName installs the package of node.js 
 
-You can remove the boiler plate code
+
