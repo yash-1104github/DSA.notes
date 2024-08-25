@@ -95,9 +95,10 @@ INSERT ELEMENT IN VECTOR TEMP USE SIMPLE TEMP.PUSH_BACK(NUMS[I])
 
 //CONVERT INTEGER TO STRING 
 string  a = to_string(n);
-
-
-
+// CONVERT STRING TO INTEGER
+int n = stoi(temp) 
+//CONVERT LARGE STRING TO INTEGER
+long long n = stoll(temp)
 
 
 
