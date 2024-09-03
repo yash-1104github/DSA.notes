@@ -14,6 +14,7 @@ cout << value is << endl;
 return 0 ;
 }
 
+ vector<pair<int,int>>ans;//to store the pair of number 
 
 huset store elements in sorted order to find min or max simply use set.rbegin() = max and set.begin() = min elements. window length = right -left +1;
 
