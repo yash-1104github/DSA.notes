@@ -116,4 +116,5 @@ npm init  initilalize the json file and npm i packageName installs the package o
 getline(cin,str) ---> TO read all sentences with space 
 ss.stringstream
 
-
+NoSQL is schemaless and ex -> MONGODB AND FIREBASE
+SQL is schema and table like structure ie -->  MySQL
