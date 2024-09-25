@@ -1,6 +1,12 @@
- You can remove the boiler plate code and do ==>
+    You can remove the boiler plate code and do ==>
 #include<bits/stdc++.h>
 using namespace std;
+// namespace is used to get the difference between user defined function name or variable name and predefined function name and prefefined name.
+//std stands for standard template dictonary
+//stl stands for standard template library which contain container , iteraotr and algorithm 
+//constructor is special function which automatically call when the class is created to assign the memory and name is same as class
+//deconstructor is functino which automatically call when the class is destroyed to remove from memory and name is same as class
+
 
 int main(){
 int a , n , m;
