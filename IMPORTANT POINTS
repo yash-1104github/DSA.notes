@@ -7,6 +7,8 @@ using namespace std;
 //constructor is special function which automatically call when the class is created to assign the memory and name is same as class
 //deconstructor is functino which automatically call when the class is destroyed to remove from memory and name is same as class
 
+//reverse in a range of [l,r]
+reverse(s.begin()+l,s.begin()+r);
 
 int main(){
 int a , n , m;
