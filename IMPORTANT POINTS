@@ -10,6 +10,11 @@ using namespace std;
 //reverse in a range of [l,r]
 reverse(s.begin()+l,s.begin()+r);
 
+//empty set in one go 
+//mySet.clear();
+
+
+
 int main(){
 int a , n , m;
 cin >> a >> n >> m ;
