@@ -1,4 +1,5 @@
-    You can remove the boiler plate code and do ==>
+
+You can remove the boiler plate code and do ==>
 #include<bits/stdc++.h>
 using namespace std;
 // namespace is used to get the difference between user defined function name or variable name and predefined function name and prefefined name.
