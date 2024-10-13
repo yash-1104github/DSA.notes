@@ -1,4 +1,4 @@
-
+temp.clear(); to empty the dynamic array vector<int>temp
 
 
 You can remove the boiler plate code and do ==>
