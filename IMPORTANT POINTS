@@ -1,13 +1,22 @@
 temp.clear(); to empty the dynamic array vector<int>temp
 
 //CONVERT iTH CHARACTER PRESENT IN THE STRING TO INTERGER .So, num[i] - '0' converts the character at position i in the string num to its corresponding integer value.
-num[i] = 5 ==> char 5 - '0' will be integer 5 ;
-int digit = num[i] - '0'; 
+num[i] = 5 ==>  char ch = num[i]; 
+int val = ch - '0' ==> integer value of ch
+5 - '0' will be integer 5 ;
+
+// Char ch = s[i]  and s has lower and upper alphabet
+ch -'A' => gives int value in range [0,25] depent upon ch like it ch => B then B-'A' = 1 becoz B = 66 and A = 65 so 66-65 = 1;
+ch -'a' => gives int value in range [0,25]
+
 
 //TO CONVERT UPPERCASE CHAR IN TEMP TO LOWER CASE USING FUNCTION tolower
  for(auto ch : temp){
           ans  += tolower(ch);
        }
+
+//range of char ==>> [0,255] INCLUDE ALPHABET , SYMBOLS , NUMBERS ;
+
 
 You can remove the boiler plate code and do ==>
 #include<bits/stdc++.h>
@@ -76,6 +85,8 @@ s= string(v.begin(), v.end()) is a concise and efficient way to create a new str
 ascii value of A-Z = [65 - 90]   
 acsii value of a-z = [97 - 122]
 ascii valiue of number from 0 - 9 = [48 - 57]
+
+
 
 sort(arr.begin() , arr.end() , greater<int>()) sort the arr in the dcreasing order here greater<int>() => it is a comparator operator 
 
