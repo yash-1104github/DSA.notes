@@ -4,6 +4,10 @@ temp.clear(); to empty the dynamic array vector<int>temp
 num[i] = 5 ==> char 5 - '0' will be integer 5 ;
 int digit = num[i] - '0'; 
 
+//TO CONVERT UPPERCASE CHAR IN TEMP TO LOWER CASE USING FUNCTION tolower
+ for(auto ch : temp){
+          ans  += tolower(ch);
+       }
 
 You can remove the boiler plate code and do ==>
 #include<bits/stdc++.h>
