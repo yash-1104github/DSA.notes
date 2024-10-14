@@ -1,5 +1,9 @@
 temp.clear(); to empty the dynamic array vector<int>temp
 
+//CONVERT iTH CHARACTER PRESENT IN THE STRING TO INTERGER .So, num[i] - '0' converts the character at position i in the string num to its corresponding integer value.
+num[i] = 5 ==> char 5 - '0' will be integer 5 ;
+int digit = num[i] - '0'; 
+
 
 You can remove the boiler plate code and do ==>
 #include<bits/stdc++.h>
