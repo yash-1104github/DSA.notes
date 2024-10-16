@@ -154,3 +154,90 @@ ss.stringstream
 
 NoSQL is schemaless and ex -> MONGODB AND FIREBASE
 SQL is schema and table like structure ie -->  MySQL
+
+Reference vs. Value:
+slow == fast checks if the pointers reference the same node.
+slow->data == fast->data checks if the values contained in those nodes are the same.
+
+slow == fast is critical for determining if there is a cycle in the list.
+slow->data == fast->data can be used for comparing node values but is not useful for detecting cycles.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
