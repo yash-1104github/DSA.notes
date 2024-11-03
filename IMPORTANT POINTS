@@ -1,6 +1,4 @@
 
-
-
 temp.clear(); to empty the dynamic array vector<int>temp
 iteration in sorted-map happens in increasing order of key 
 
