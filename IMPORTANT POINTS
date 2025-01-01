@@ -1,4 +1,5 @@
 Yes, isdigit() is a standard library function in C++ that checks if a given character is a digit (0–9).
+string(1, s[i]) creates a string of length 1 containing the character s[i]
 
 temp.clear(); to empty the dynamic array vector<int>temp
 iteration in sorted-map happens in increasing order of key 
