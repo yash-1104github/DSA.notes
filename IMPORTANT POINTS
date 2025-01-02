@@ -1,3 +1,6 @@
+// Use binary search to find the first valid potion
+auto it = lower_bound(potions.begin(), potions.end(), required_potion);
+
 find  ciel value with floting point and works with integer
 Ceil Division=  (a+b-1)/b;
 
