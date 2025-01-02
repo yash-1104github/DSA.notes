@@ -1,3 +1,7 @@
+find  ciel value with floting point and works with integer
+Ceil Division=  (a+b-1)/b;
+
+
 Yes, isdigit() is a standard library function in C++ that checks if a given character is a digit (0–9).
 string(1, s[i]) creates a string of length 1 containing the character s[i]
 
