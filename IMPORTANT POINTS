@@ -4,6 +4,9 @@
  (a xor b) xor c = a xor (b xor c)
  a xor b = b xor a
 
+// count no of 1's bit in the number
+ int a = __builtin_popcount(num1);
+
 //Bitwise XOR of two same no is ZERO 
 //Bitwise XOR of O and no is no itselft
 
