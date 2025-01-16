@@ -1,5 +1,8 @@
-
-
+//XOR properties
+ a xor a = 0
+ a xor 0 = a
+ (a xor b) xor c = a xor (b xor c)
+ a xor b = b xor a
 
 //Bitwise XOR of two same no is ZERO 
 //Bitwise XOR of O and no is no itselft
