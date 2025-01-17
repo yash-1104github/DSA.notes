@@ -1,6 +1,16 @@
+sort array in decrease order 
+sort<arr.begin(),arr.end(),greater<int>);
+
 #priority Queue
+by defalut priority queue makes max heap
 max heap && max priority queue = max value element will come out first from queue then next max
+pq.top() will always be max value inside queue
 min heap && min priority queue = min value element will come out first from queue then next min
+pq.top() will always be min value inside queue
+
+max heap = priority_queue<int>pq;
+min heap = priority_queue<int, vector<int>, greater<int>>pq;
+
 
 //XOR properties
  a xor a = 0
@@ -17,7 +27,7 @@ min heap && min priority queue = min value element will come out first from queu
 // Use binary search to find the first valid potion
 auto it = lower_bound(potions.begin(), potions.end(), required_potion);
 
-find  ciel value with floting point and works with integer
+find  Ciel value with floating point and works with integer
 Ceil Division=  (a+b-1)/b;
 
 
