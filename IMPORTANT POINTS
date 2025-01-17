@@ -11,6 +11,8 @@ pq.top() will always be min value inside queue
 max heap = priority_queue<int>pq;
 min heap = priority_queue<int, vector<int>, greater<int>>pq;
 
+min head and max heap both are complete binary tree
+
 
 //XOR properties
  a xor a = 0
