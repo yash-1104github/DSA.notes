@@ -1,3 +1,20 @@
+COMPARATOR OPERATOR
+auto lambda = [](int a, int b ){
+     return a > b ; //desc
+}
+
+sort(begin(arr), end(arr), lambda); // sort element in desc order;
+
+For priority queue
+
+        auto lambda = [](pair<int,string>p1 , pair<int,string>p2){
+            if(p1.first == p2.first){
+                return p1.second > p2.second;
+            }
+            return p1.first < p2.first;
+        };
+
+priority_queue<pair<int,string>, vector<pair<int,string>>, decltype(lambda)> pq(lambda);
 
 sort array in decrease order 
 sort<arr.begin(),arr.end(),greater<int>);
