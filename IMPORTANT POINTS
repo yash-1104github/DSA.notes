@@ -8,7 +8,7 @@ auto lambda = [](int a, int b ){
 sort(begin(arr), end(arr), lambda); // sort element in desc order;
 
 For priority queue
-
+//if freq same then store element in lexical order
         auto lambda = [](pair<int,string>p1 , pair<int,string>p2){
             if(p1.first == p2.first){
                 return p1.second > p2.second;
