@@ -1,3 +1,5 @@
+ceil of value of [n/2] = (n+1)/2;
+
 COMPARATOR OPERATOR
 auto lambda = [](int a, int b ){
      return a > b ; //desc
