@@ -1,5 +1,8 @@
 If question ask to return a minimum value then most probably it is a Greedy algorithm Plm.
 
+
+set main st.insert() for add and st.erase() for remove element 
+
 ceil of value of [n/2] = (n+1)/2;
 
 COMPARATOR OPERATOR
