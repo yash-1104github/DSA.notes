@@ -1,5 +1,7 @@
 If question ask to return a minimum value then most probably it is a Greedy algorithm Plm.
 ascii value of 0 to 9 is [48 to 57]
+//char to int is char ch  = '5'
+we do int = ch-'0', int  = 5
 
 set main st.insert() for add and st.erase() for remove element 
 
