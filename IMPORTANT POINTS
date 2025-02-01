@@ -5,6 +5,8 @@ we do int = ch-'0', int  = 5
 
 set main st.insert() for add and st.erase() for remove element 
 
+uppercase asciii value 65 to 90 and lowercase 97 to 122
+
 ceil of value of [n/2] = (n+1)/2;
 
 COMPARATOR OPERATOR
