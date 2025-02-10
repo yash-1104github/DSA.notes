@@ -1,3 +1,5 @@
+ORM => Prisma, Drizzle
+PostgreSQL => Neon, Supabase
 
 If question ask to return a minimum value then most probably it is a Greedy algorithm Plm.
 ascii value of 0 to 9 is [48 to 57]
