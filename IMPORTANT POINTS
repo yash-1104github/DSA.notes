@@ -17,7 +17,8 @@ auto lambda = [](int a, int b ){
      return a > b ; //desc
 }
 
- auto idx = str.find_last_of('/'); last idx of particular char in string
+char ch = s[i];
+ auto idx = str.find_last_of(ch); last idx of particular char in string
 
 sort(begin(arr), end(arr), lambda); // sort element in desc order;
 
