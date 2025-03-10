@@ -1,8 +1,15 @@
+#INPUT IN C++
+take entire sentence as input 
+string str;
+getline(cin,str);
 
 convert integer to char => return (char)Xor; 
 
 ORM => Prisma, Drizzle
 PostgreSQL => Neon, Supabase
+
+begin(arr) and end(arr) only work for C++ STL containers (like vectors, sets).
+Since arr is a regular array => sort(arr, arr + n);
 
 If question ask to return a minimum value then most probably it is a Greedy algorithm Plm.
 ascii value of 0 to 9 is [48 to 57]
@@ -11,7 +18,7 @@ we do int = ch-'0', int  = 5
 
 set main st.insert() for add and st.erase() for remove element 
 
-uppercase asciii value 65 to 90 and lowercase 97 to 122 
+uppercase asciii value 65 to 90 and lowercase 97 to 122  and 0 to 9 is [48, 57]
 
 ceil of value of [n/2] = (n+1)/2;
 
