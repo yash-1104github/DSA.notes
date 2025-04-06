@@ -1,6 +1,9 @@
 LEFT SHIFT => << => a*2^b;
 RIGHT SHIFT => >> => a/2^b;
 
+cnt = it.second * (it.second - 1) / 2;
+This is the standard nC2 (combinations of 2 from n)
+
 # SUBARRAY SUM => PREFIX SUM
 # MAXIMUM OF SUBARRAY SUM OR MINIMUM SUBARRAY SUM ==> KADANCE ALGORITHM
 # IF MINIMIZE THE MAXIMUM THEN USE BINARY SEARCH
