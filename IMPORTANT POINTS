@@ -1,3 +1,5 @@
+convert int 5 to char 5 => to_string(num);
+
 LEFT SHIFT => << => a*2^b;
 RIGHT SHIFT => >> => a/2^b;
 
